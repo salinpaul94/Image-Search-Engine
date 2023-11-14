@@ -48,5 +48,10 @@ form button {
   outline: 0;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  cursor: pointer
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 20px;
 }
