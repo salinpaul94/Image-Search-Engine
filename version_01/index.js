@@ -23,6 +23,7 @@ async function searchImages() {
     image.src = result.urls.small;
     const imageLink = document.createElement("a");
     imageLink.href = result.links.html;
+    imageLink.target = "_blank";
   });
 }
 
