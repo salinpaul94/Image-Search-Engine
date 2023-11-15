@@ -12,4 +12,6 @@ const apiKeyUrl = "&client_id=8PRX7SZs2ccESPfdmY_dJI831Wa0DOqVaHnuMWFcyXA";
 async function searchImages() {
   keyword = searchBox.value;
   const url = baseUrl + page + queryUrl + keyword + apiKeyUrl;
+
+  const response = await fetch(url);
 }
