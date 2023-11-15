@@ -8,6 +8,7 @@ let page = 1;
 const baseUrl = "https://api.unsplash.com/search/photos?page=";
 const queryUrl = "&query=";
 const apiKeyUrl = "&client_id=8PRX7SZs2ccESPfdmY_dJI831Wa0DOqVaHnuMWFcyXA";
+const imagePerPageUrl = "&per_page=";
 
 async function searchImages() {
   keyword = searchBox.value;
