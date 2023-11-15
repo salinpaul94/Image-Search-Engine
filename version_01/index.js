@@ -6,7 +6,7 @@ const searchMoreBtn = document.getElementById("show-more-btn");
 let keyword = "";
 let page = 1;
 const baseUrl = "https://api.unsplash.com/search/photos?page=";
-const queryUrl = "&query="
+const queryUrl = "&query=";
 const apiKeyUrl = "&client_id=8PRX7SZs2ccESPfdmY_dJI831Wa0DOqVaHnuMWFcyXA";
 
 async function searchImages() {
@@ -14,4 +14,6 @@ async function searchImages() {
   const url = baseUrl + page + queryUrl + keyword + apiKeyUrl;
 
   const response = await fetch(url);
+  const data = await response.json();
+  console.log(data);
 }
