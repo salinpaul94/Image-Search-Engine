@@ -13,6 +13,9 @@ const imagePerPage = "12";
 
 async function searchImages() {
   keyword = searchBox.value;
+  if (keyword !== "") {
+    console.log("hi");
+  }
   const url =
     baseUrl +
     page +
