@@ -5,7 +5,9 @@ const searchMoreBtn = document.getElementById("show-more-btn");
 
 let keyword = "";
 let page = 1;
+const url = "https://api.unsplash.com/search/photos?page=1&query=";
 
 async function searchImages() {
   keyword = searchBox.value;
+  
 }
