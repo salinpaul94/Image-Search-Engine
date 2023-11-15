@@ -20,8 +20,8 @@ async function searchImages() {
 
   results.map((result) => {
     const image = document.createElement("img");
-    
-  })
+    image.src = result.urls.small;
+  });
 }
 
 searchForm.addEventListener("submit", (e) => {
