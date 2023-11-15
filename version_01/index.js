@@ -19,6 +19,7 @@ async function searchImages() {
   const results = data.results;
 
   results.map((result) => {
+    const image = document.createElement("img");
     
   })
 }
