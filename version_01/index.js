@@ -25,6 +25,9 @@ async function searchImages() {
   const response = await fetch(url);
   const data = await response.json();
 
+  if (page === 1) {
+    
+  }
   const results = data.results;
 
   results.map((result) => {
