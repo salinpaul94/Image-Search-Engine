@@ -26,6 +26,7 @@ async function searchImages() {
     imageLink.target = "_blank";
 
     imageLink.appendChild(image);
+    searchResult.appendChild(imageLink);
   });
 }
 
