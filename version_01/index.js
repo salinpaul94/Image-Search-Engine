@@ -13,7 +13,14 @@ const imagePerPage = "12";
 
 async function searchImages() {
   keyword = searchBox.value;
-  const url = baseUrl + page + queryUrl + keyword + apiKeyUrl;
+  const url =
+    baseUrl +
+    page +
+    queryUrl +
+    keyword +
+    apiKeyUrl +
+    imagePerPageUrl +
+    imagePerPage;
 
   const response = await fetch(url);
   const data = await response.json();
