@@ -5,3 +5,7 @@ const searchMoreBtn = document.getElementById("show-more-btn");
 
 let keyword = "";
 let page = 1;
+
+async function searchImages() {
+  
+}
