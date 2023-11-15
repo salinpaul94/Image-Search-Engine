@@ -17,6 +17,10 @@ async function searchImages() {
   const data = await response.json();
 
   const results = data.results;
+
+  results.map((result) => {
+    
+  })
 }
 
 searchForm.addEventListener("submit", (e) => {
