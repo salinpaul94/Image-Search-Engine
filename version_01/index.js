@@ -37,6 +37,7 @@ async function searchImages() {
     imageLink.appendChild(image);
     searchResult.appendChild(imageLink);
   });
+  showMoreBtn.style.display = "block";
 }
 
 searchForm.addEventListener("submit", (e) => {
